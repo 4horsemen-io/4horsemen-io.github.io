@@ -26,10 +26,10 @@
         {{ content }}
         
         {% if page.previous.url %}
-          <a href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+          <a href="{{page.previous.url}}">←previous post</a>
         {% endif %}
         {% if page.next.url %}
-          <a href="{{page.next.url}}" style="text-align: right">{{page.next.title}} &raquo;</a>
+          <a href="{{page.next.url}}" style="text-align: right">next post→</a>
         {% endif %}
         
       </section>
